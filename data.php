@@ -1,0 +1,58 @@
+<?php 
+$games = [
+    [
+        "id" => "snake",
+        "title" => "Snake",
+        "image" => "images/snake.jpg",
+        "description" => "Un jeu classique où tu contrôles un serpent pour manger les pommes sans te mordre.",
+        "rules" => "Utilise les flèches du clavier pour diriger le serpent. Ne touche pas les murs ni ton propre corps.",
+        "link" => "games/php/snake.php",
+		"height" => "500",
+		"script" => "/games/js/snake.js",
+		"style"=>"style1",
+    ],
+    [
+        "id" => "memory",
+        "title" => "Memory",
+        "image" => "images/memory.jpg",
+        "description" => "Retourne les cartes et trouve toutes les paires identiques.",
+        "rules" => "Clique sur deux cartes pour les retourner. Si elles sont identiques, elles restent visibles. Sinon, elles se retournent à nouveau.",
+        "link" => "games/php/memory.php",
+		"height" => "500",
+		"script"=> "/games/js/memory.js",
+		"style"=>"style2",
+	],
+	[
+		"id" => "tictactoe",
+		"title" => "Tic Tac Toe",
+		"image" => "images/tictactoe.png",
+		"description" => "Joue au Tic Tac Toe contre un ami ou l'ordinateur.",
+		"rules" => "Place trois de tes symboles en ligne (horizontalement, verticalement ou en diagonale) pour gagner.",
+		"link" => "games/php/tictactoe.php",
+		"height" => "500",
+		"script"=> "/games/js/tictactoe.js",
+		"style"=>"style3",
+	],
+	[
+		"id" => "quiz",
+		"title" => "Quiz",
+		"image" => "images/quiz.jpg",
+		"description" => "Teste tes connaissances avec ce quiz amusant.",
+		"rules" => "Réponds aux questions et essaie d'obtenir le meilleur score possible.",
+		"link" => "games/php/quiz.php",
+		"height" => "500",
+		"script"=> "/games/js/quiz.js",
+		"style"=>"style4",
+	],
+	[
+		"id" => "tetris",
+		"title" => "Tetris",
+		"image" => "images/tetris.jpg",
+		"description" => "",
+		"link" => "games/php/tetris.php",
+		"height"=> "500",
+		"script"=> "/games/js/quiz.js",
+		"style"=> "style5"
+	],
+]
+?>
